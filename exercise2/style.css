@@ -1,3 +1,41 @@
 body{
-	background: yellow;
+	background: Purple;
+	color:black;
+	font-family:Times New Roman
+	font-size: 24;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-family: Times New Roman;
+	background: Blue;
+}
+
+p{
+	text-algin: center;
+	color: white;
+	font-family:Helvetica;
+	background:black;
+}
+
+#table-of-contents{
+	list-style:None;
+	position:relative;
+	top: 25px;
+	left: 25px;
+	font-family:Times New Roman;
+	font-weight:bold;
+	font-size: 18;
+	width:50%;
+	color:black;
+
+
+}
+
+
+#table-of-content a{
+	color: black;
+	backround:white;
+	text-decoration: none;
 }
