@@ -9,7 +9,7 @@ h1{
 	text-align: center;
 	color: black;
 	font-family: Times New Roman;
-	background: Royal Blue;
+	background:Blue;
 }
 
 p{
@@ -33,10 +33,10 @@ p{
 
 .container {
 	background:blue;
-	padding: 20px;
-	border:	15px inset black;
+	padding: 15px;
+	border:	10px inset black;
 	margin:	30px auto;
-	width:	100%; float:center;
+	width:	95%; float:center;
 }
 
 
