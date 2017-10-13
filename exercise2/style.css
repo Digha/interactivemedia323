@@ -1,5 +1,5 @@
 body{
-	background: Purple;
+	background: White;
 	color:black;
 	font-family:Times New Roman
 	font-size: 24;
@@ -9,13 +9,13 @@ h1{
 	text-align: center;
 	color: black;
 	font-family: Times New Roman;
-	background: Blue;
+	background: Royal Blue;
 }
 
 p{
 	text-algin: center;
 	color: white;
-	font-family:Helvetica;
+	font-family:Times New Roman;
 	background:black;
 }
 
@@ -31,11 +31,13 @@ p{
 	color:black;
 
 
+.container {
+	background:blue;
+	padding: 20px;
+	border:	15px inset black;
+	margin:	30px auto;
+	width:	100%; float:center;
 }
 
 
-#table-of-content a{
-	color: black;
-	backround:white;
-	text-decoration: none;
-}
+
