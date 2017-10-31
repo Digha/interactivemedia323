@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #FFF;
+	font-size:4strong;
+	padding-top: 100px;
+	width: 100%;
+	font-family: Gerogia;
+}
+
+h2 {
+	border-top: 1px;
+	height: 20px;
+	padding-bottom: 20px;
+	width: 70%;
+	position: absolute;
+	top: 100px;
+	font-family: Gerogia;
+}
+
+h3 {
+	border-bottom: 2px;
+	display: block;
+	margin-left: 20px;
+	padding: 10px;
+	position: left;
+	width: 70%;
+
+
+}
+
+h4 {
+	border-bottom: 2px;
+	display: block;
+	margin-left: 20px;
+	padding-top: 30px;
+	position: absolute;
+	width: 70%;
+
+}
+
+
