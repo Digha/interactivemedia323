@@ -3,9 +3,10 @@ body{
 	padding: 0;
 }
 #top {
-	position: fixed;
-	right: 20px;
-	top: 20px;
+	position: relative;
+	width: 200px;
+	height: 100px;
+	background: black;
 }
 
 a{
