@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.icon {
+	position: relative;
+	display: inline-block;
+}
+
+.icon::before;
+.icon::after {
+	content: "";
+	position: absolute;
+}
+
+
+
+.icon_hamburger {
+	width: 1.625em;
+	height: .313em;
+	background: black;
+}
+
+
+
+.icon_hamburger::before,
+.icon_hamburger::after {
+	width: 1.625em;
+	height: .313em;
+	background: black;
+}
+
+.icon_hamburger::before {
+	top: -625em;
+}
+
+
+.icon_hamburger::after {
+	bottom: -625em;
+}

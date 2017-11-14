@@ -1,0 +1,25 @@
+.upperleft{
+		width: 20%;
+		height: 25%;
+		float: left;
+		
+}
+
+	.upperright{
+		width: 20%;
+		height: 25%;
+		float: right;
+		
+}
+
+
+.bottom{
+	width: 50%;
+	height: 50%;
+	float: 0;
+	text-align: bottom;
+}
+
+
+
+
