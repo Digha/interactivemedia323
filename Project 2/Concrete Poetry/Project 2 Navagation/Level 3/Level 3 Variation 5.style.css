@@ -1,0 +1,7 @@
+.margin{
+	border: 5px solid black;
+	margin-left: 10px;
+	width: 50%;
+	height: 100%;
+	background-color: khaki;
+}
