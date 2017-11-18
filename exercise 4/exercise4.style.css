@@ -1,52 +1,136 @@
-* {
-	box-sizing: border-box;
-}
+element.style{
 
-body {
-	background: black;
+}
+.canvas.one {
+	background: #F4A460;
 }
 
 .canvas {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: white;
 	position: relative;
 }
 
-.icon {
-	position: relative;
-	display: inline-block;
+* {
+	box-sizing: border-box;
 }
 
-.icon::before;
-.icon::after {
-	content: "";
+div {
+	display: block;
+}
+
+
+
+body {
+	background: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: block;
+	margin: 8px;
+}
+
+.water-glass-container {
+	width: 225px;
+	height: 100px;
+	background: blue;
+	right: 200px;
+	bottom: 200px;
+}
+
+.object {
 	position: absolute;
 }
 
-
-
-.icon_hamburger {
-	width: 1.625em;
-	height: .313em;
-	background: black;
+* {
+	box-sizing: border-box;
 }
 
-
-
-.icon_hamburger::before,
-.icon_hamburger::after {
-	width: 1.625em;
-	height: .313em;
-	background: black;
+div {
+	display: block;
 }
 
-.icon_hamburger::before {
-	top: -625em;
+.water-glass-container .glass{
+	height: 225px;
+	width: 100px;
+	background: white;
+	opacity: 0.5;
 }
 
+.object {
+	position: absolute;
+}
 
-.icon_hamburger::after {
-	bottom: -625em;
+* {
+	box-sizing: border-box;
+}
+
+div{
+	display: block;
+}
+
+.water-glass-container .top{
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid white;
+	top: -12px;
+}
+
+.object {
+	position: absolute;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+div{
+	display: block;
+}
+
+.water-glass-container .bottom{
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	background: white;
+	bottom: -12px;
+}
+
+.object{
+	position: absolute;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+div{
+	display: block;
+}
+
+.water-glass-container .water-level
+{
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	background: white;
+	bottom: 66.666%;
+}
+
+.object{
+	position: absolute;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+div{
+	display: block;
 }
