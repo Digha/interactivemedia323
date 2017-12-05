@@ -1,35 +1,31 @@
-.header{
-	height: 20%;
-	color: white;
-}
-.content{
-	width: 50%;
-	height: 80%;
-	display: inline;
-	color: white;
-
-}
-
-.links{
-	width: 50%;
-	height: 80%;
-	display: inline;
-	color: white;
-}
-
-a{
+body {
+	background-image: url("Images/The Panther Spirit.png");
 	color: blue;
 }
 
-a:hover{
+.header {
+	height: 20%;
+	color: white;
+	font-size: 120px;
+}
+
+
+a:hover {
 	color: red;
 }
 
-a:active{
+a:active {
 	color: purple;
 }
 
-a:visited{
-	color: green;
+a:visited {
+	color: black;
 }
 
+div {
+	background-color: white;
+	width: 200px;
+	border: 30px solid blue;
+	padding: 30px;
+	margin: auto auto;
+}

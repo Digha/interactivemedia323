@@ -1,7 +1,8 @@
-body{
-	background-image: url("Images/Black Panther Image4.jpg");
+body {
+	background-image: url("Images/Black Panther.jpg");
 	color: black;
 }
+
 
 
 a:hover{
@@ -13,13 +14,13 @@ a:active{
 }
 
 a:visited{
-	color: blue;
+	color: green;
 }
 
 div {
 	background-color: white;
 	width: 300px;
-	border: 25px solid blue;
+	border: 25px solid purple;
 	padding: 25px;
 	margin: auto auto;
 }
